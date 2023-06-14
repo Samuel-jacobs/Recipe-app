@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import '@splidejs/react-splide/css';
+import '@splidejs/splide/dist/css/splide.min.css';
 
 function Popular() {
   const [popular, setPopular] = useState([]);
@@ -36,9 +36,9 @@ function Popular() {
         perPage: 4,
         arrows: false,
         pagination: false,
-        drag: 'free',
-        gap: "5rem"
-        }}>
+        drag: "free",
+        gap: "3rem",
+      }}>
         {popular.map((recipe) => {
           return (
             <SplideSlide key={recipe.id}>
@@ -60,7 +60,7 @@ const Wrapper = styled.div`
 `;
 
 const Card = styled.div`
-  min-height: 25rem;
+  min-height: 200px;
   border-radius: 2rem;
   overflow: hidden;
   position: relative;
