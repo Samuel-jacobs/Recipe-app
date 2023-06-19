@@ -36,7 +36,7 @@ const FormStyle = styled.form `
   
   width: 100%;
   div {
-    margin: 0 5rem;
+    margin: 0 20%;
     position: relative;
    
   }

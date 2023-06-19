@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import styled from "styled-components";
 
 import React from 'react';
-import "./app.css";
+
 
 function Recipe() {
 
@@ -69,6 +69,7 @@ function Recipe() {
 const DetailWrapper = styled.div `
   margin-top: 10rem;
   margin-bottom: 5rem;
+  margin: 0 10%;
   display: flex;
 
   .active {

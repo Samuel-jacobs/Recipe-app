@@ -39,7 +39,7 @@ function Searched() {
 
 
 const Grid = styled.div`
-
+  margin: 0 20%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   grid-gap: 3rem;
