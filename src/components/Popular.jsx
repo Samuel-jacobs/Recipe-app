@@ -48,8 +48,7 @@ function Popular() {
                   <p>{recipe.title}</p>
                   <img src={recipe.image} alt={recipe.title} />
                   <Gradient />
-                </Link>
-                
+                </Link> 
               </Card>
             </SplideSlide>
           );

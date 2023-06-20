@@ -19,6 +19,7 @@ function Recipe() {
   }
   useEffect(() => {
     fetchDetails(params.name)
+    console.log(params.name)
   }, [params.name])
 
   return (

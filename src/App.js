@@ -12,10 +12,10 @@ function App() {
     <div className="App">
 
       <BrowserRouter>
-      <Nav>
-        <GiKnifeFork />
-        <Logo to={"/"} >Delicious</Logo>
-      </Nav>
+        <Nav>
+          <GiKnifeFork />
+          <Logo to={"/"} >Delicious</Logo>
+        </Nav>
         <Search />
         <Category />
         <Pages />
