@@ -357,3 +357,7 @@ The image and the title is displayed from the api results like
       </div>
 ``` 
 The whole page is wrapped in a detailwrapper styled with styled components the image and title as well as the info which contains the button and the actual instructions and ingredients are set to be side by find in a flex box.
+
+
+## Final notes
+This project was a follow along project from a project by DevEd on Youtube. I used tried to understand each step independently that was why i wrote this documentation. I'm grateful to DevEd for taking the time to build the project and break it down to us. I have learned a lot while building this recipe app including how to work with apis better, how to handle routing, how to create search components, how to style better using styled components, how to organize a project, and many other things. I plan to complete a few more of his react projects and move on to building some of mine from scratch. If you're learning web development do well to check his [channel](https://www.youtube.com/c/deved) on youtube. Its packed with javascript and react projects and he explains them in the simplest way to help you understand easily. 
